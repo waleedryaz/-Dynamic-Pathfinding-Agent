@@ -23,7 +23,7 @@ CLR_TEXT        = "#e0e0e0"
 CLR_SUBTEXT     = "#8888aa"
 
 
-#  HEURISTIC FUNCTIONS
+# HEURISTIC FUNCTIONS
 def manhattan(a, b):
     """
     D = |x1 - x2| + |y1 - y2|
@@ -689,4 +689,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app  = PathfindingApp(root)
     app._run_agent = app._run_agent_wrapper
+
     root.mainloop()
